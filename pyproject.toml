@@ -1,0 +1,17 @@
+[metadata]
+name = 'generate-html'
+version = '0.0.1'
+description = 'Generate HTML5 with Python generators'
+author = 'Jasmijn Wellner'
+author_email = 'gyvox.public@gmail.com'
+license = 'MIT/Apache-2.0'
+url = 'https://github.com/gvx/generate-html'
+
+[requires]
+python_version = ['3.8', '3.9', 'pypy3']
+
+[build-system]
+requires = ['setuptools', 'wheel']
+
+[tool.hatch.commands]
+prerelease = 'hatch build'

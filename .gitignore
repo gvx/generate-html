@@ -1,0 +1,15 @@
+*.log
+*.pyc
+__pycache__/
+.cache/
+.coverage
+.idea/
+.vscode/
+.*_cache/
+*.egg-info/
+build/
+dist/
+docs/_build/
+venv/
+wheelhouse/
+htmlcov/

@@ -1,0 +1,16 @@
+[run]
+source =
+    generate_html
+    tests
+branch = True
+omit =
+    generate_html/cli.py
+
+[report]
+exclude_lines =
+    no cov
+    no qa
+    noqa
+    pragma: no cover
+    if __name__ == .__main__.:
+    if (typing\.)?TYPE_CHECKING:
